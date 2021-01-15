@@ -1,0 +1,96 @@
+.nav-link {
+  font-size: 24px;
+}
+
+/************Carousel************/
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel-caption h3 {
+  color: rgb(255, 255, 255);
+  font-size: 46px;
+}
+
+.carousel-caption p {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+}
+
+
+/************Carousel************/
+
+/************CategoriesStart************/
+
+.row-cate div .col,
+a > p {
+  color: black;
+  text-align: center;
+  font-size: 28px;
+}
+
+.cate-img {
+  border-radius: 5%;
+  opacity: 0.8;
+}
+
+/************CategoriesEnd************/
+
+/************NewSalesStart************/
+.mycard > a {
+  transform: scale(1);
+  transition: transform 0.2s ease-out;
+}
+
+.mycard > a:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px #999;
+}
+
+.mycard  a {
+  text-decoration: none;
+}
+/************NewSalesStart************/
+.contaimer .row > .col-md-6  > p{
+  font-size: 36px;
+}
+.contaimer .row > .col-md-12  > p{
+  font-size: 36px;
+}
+
+/************01aboutStart************/
+.abcontainer col-md-6 p{
+  font-size: 28px;
+}
+/************01aboutEnd**************/
+
+.contaimer .row .abimg {
+  border: block;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3%;
+}
+
+/***********01about**************/
+#about_move {
+  transform: scale(1);
+  transition: transform 0.5s ease-out;
+}
+
+#about_move:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px #999;
+}
+
+/***********01about**************/
+
+/************FooterStart************/
+.navbar-brand {
+  text-align: center;
+}
+.footer-item a {
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+/************FooterEnd************/
+
