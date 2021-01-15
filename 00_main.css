@@ -64,7 +64,7 @@ a > p {
 }
 /************01aboutEnd**************/
 
-.contaimer .row .abimg {
+.container .row .abimg {
   border: block;
   flex-direction: column;
   justify-content: center;
